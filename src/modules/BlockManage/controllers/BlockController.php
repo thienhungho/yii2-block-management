@@ -3,7 +3,7 @@
 namespace thienhungho\Block\modules\BlockManage\controllers;
 
 use Yii;
-use common\modules\blocks\Block;
+use thienhungho\Block\modules\blocks\Block;
 use thienhungho\Block\modules\BlockManage\search\BlockSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;

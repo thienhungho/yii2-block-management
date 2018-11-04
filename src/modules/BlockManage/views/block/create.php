@@ -4,7 +4,7 @@ use yii\helpers\Html;
 
 
 /* @var $this yii\web\View */
-/* @var $model common\modules\blocks\Block */
+/* @var $model thienhungho\Block\modules\blocks\Block */
 
 $this->title = t('app', 'Create Block');
 $this->params['breadcrumbs'][] = ['label' => t('app', 'Block'), 'url' => ['index']];

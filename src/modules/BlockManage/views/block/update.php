@@ -3,7 +3,7 @@
 use yii\helpers\Html;
 
 /* @var $this yii\web\View */
-/* @var $model common\modules\blocks\Block */
+/* @var $model thienhungho\Block\modules\blocks\Block */
 
 $this->title = t('app', 'Update {modelClass}: ', [
     'modelClass' => 'Block',

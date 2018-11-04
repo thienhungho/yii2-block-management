@@ -4,7 +4,7 @@ use kartik\widgets\ActiveForm;
 use yii\helpers\Html;
 
 /* @var $this yii\web\View */
-/* @var $model common\modules\blocks\Block */
+/* @var $model thienhungho\Block\modules\blocks\Block */
 /* @var $form yii\widgets\ActiveForm */
 if (empty($model->author)) {
     $model->author = Yii::$app->user->id;
@@ -94,7 +94,7 @@ if (empty($model->id)) {
                 ],
             ])->widget(\kartik\widgets\Select2::classname(), [
                 'data'          => \yii\helpers\ArrayHelper::map(
-                    \common\modules\blocks\Block::find()
+                    \thienhungho\Block\modules\blocks\Block::find()
                         ->orderBy('id')
                         ->where(['assign_with' => 0])
                         ->andWhere([

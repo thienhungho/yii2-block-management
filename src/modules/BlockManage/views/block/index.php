@@ -102,7 +102,7 @@ $this->registerJs($search);
                 ]), ['target' => '_blank']);
             },
             'filterType'          => GridView::FILTER_SELECT2,
-            'filter'              => \yii\helpers\ArrayHelper::map(\common\modules\blocks\Block::find()->where(['assign_with' => 0])->asArray()->all(), 'id', 'name'),
+            'filter'              => \yii\helpers\ArrayHelper::map(\thienhungho\Block\modules\blocks\Block::find()->where(['assign_with' => 0])->asArray()->all(), 'id', 'name'),
             'filterWidgetOptions' => [
                 'pluginOptions' => ['allowClear' => true],
             ],
