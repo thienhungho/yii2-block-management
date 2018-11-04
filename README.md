@@ -71,7 +71,7 @@ Add module BlockManage to your `AppConfig` file.
 Modules
 ------------
 
-[BlockeBase](https://github.com/thienhungho/yii2-block-management/tree/master/src/modules/BlockBase), [BlockManage](https://github.com/thienhungho/yii2-block-management/tree/master/src/modules/BlockManage)
+[BlockBase](https://github.com/thienhungho/yii2-block-management/tree/master/src/modules/BlockBase), [BlockManage](https://github.com/thienhungho/yii2-block-management/tree/master/src/modules/BlockManage)
 
 Functions
 ------------
