@@ -4,7 +4,7 @@ use yii\helpers\Html;
 
 
 /* @var $this yii\web\View */
-/* @var $model thienhungho\Block\modules\blocks\Block */
+/* @var $model thienhungho\Block\modules\BlockBase\Block */
 
 $this->title = t('app', 'Save As New {modelClass}: ', [
     'modelClass' => 'Block',

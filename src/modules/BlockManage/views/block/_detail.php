@@ -4,7 +4,7 @@ use yii\helpers\Html;
 use yii\widgets\DetailView;
 
 /* @var $this yii\web\View */
-/* @var $model thienhungho\Block\modules\blocks\Block */
+/* @var $model thienhungho\Block\modules\BlockBase\Block */
 ?>
 <div class="block-view">
 

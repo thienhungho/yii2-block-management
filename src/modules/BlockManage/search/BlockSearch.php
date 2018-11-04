@@ -8,7 +8,7 @@ use yii\data\ActiveDataProvider;
 use thienhungho\Block\modules\BlockBase\Block;
 
 /**
- * thienhungho\Block\modules\BlockManage\search\BlockSearch represents the model behind the search form about `thienhungho\Block\modules\blocks\Block`.
+ * thienhungho\Block\modules\BlockManage\search\BlockSearch represents the model behind the search form about `thienhungho\Block\modules\BlockBase\Block`.
  */
  class BlockSearch extends Block
 {
