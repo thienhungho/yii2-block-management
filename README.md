@@ -76,4 +76,9 @@ Modules
 Functions
 ------------
 
-[Core](https://github.com/thienhungho/yii2-subscribe-management/tree/master/src/functions/core.php)
+[Core](https://github.com/thienhungho/yii2-block-management/tree/master/src/functions/core.php)
+
+Models
+------------
+
+[Block](https://github.com/thienhungho/yii2-block-management/tree/master/src/models/Block.php)
