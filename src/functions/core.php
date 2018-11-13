@@ -22,7 +22,7 @@ function get_block_content($name, $language = NOT_SET, $condition = true, $funct
         if ($language == NOT_SET) {
             $language = get_current_client_language();
         }
-        $block = \common\modules\blocks\Block::find()
+        $block = \thienhungho\Block\models\Block::find()
             ->where(['name' => $name])
             ->andWhere(['language' => $language])
             ->orderBy('id')
@@ -30,7 +30,7 @@ function get_block_content($name, $language = NOT_SET, $condition = true, $funct
         if (!empty($block)) {
             return $block->content;
         } else {
-            $block = \common\modules\blocks\Block::find()
+            $block = \thienhungho\Block\models\Block::find()
                 ->where(['name' => $name])
                 ->andWhere(['language' => get_primary_language()])
                 ->orderBy('id')

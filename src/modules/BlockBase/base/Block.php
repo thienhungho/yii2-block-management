@@ -19,7 +19,7 @@ use yii\behaviors\TimestampBehavior;
  * @property integer $created_by
  * @property integer $updated_by
  *
- * @property \common\models\User $author0
+ * @property \thienhungho\UserManagement\models\User $author0
  */
 class Block extends \yii\db\ActiveRecord
 {
@@ -78,7 +78,7 @@ class Block extends \yii\db\ActiveRecord
      */
     public function getAuthor0()
     {
-        return $this->hasOne(\common\models\User::className(), ['id' => 'author']);
+        return $this->hasOne(\thienhungho\UserManagement\models\User::className(), ['id' => 'author']);
     }
     
     /**

@@ -72,7 +72,7 @@ if (empty($model->id)) {
             ],
         ])->widget(\kartik\widgets\Select2::classname(), [
             'data'          => \yii\helpers\ArrayHelper::map(
-                \common\models\User::find()
+                \thienhungho\UserManagement\models\User::find()
                     ->orderBy('id')
                     ->asArray()
                     ->all(), 'id', 'username'),
