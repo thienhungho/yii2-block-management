@@ -7,7 +7,7 @@ namespace thienhungho\Block\modules\BlockBase\query;
  *
  * @see Block
  */
-class BlockQuery extends \yii\db\ActiveQuery
+class BlockQuery extends \thienhungho\ActiveQuery\models\ActiveQuery
 {
     /*public function active()
     {
